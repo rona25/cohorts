@@ -32,13 +32,15 @@ $ make
 ###########################################################
 
 clean                                    Removes the temporary files and the virtual environment
+cohorts-1w-est                           Run cohorts analysis - display all cohorts w/ 7-day buckets (EST timezone)
 cohorts-1w-est-8                         Run cohorts analysis - display 8 cohorts w/ 7-day buckets (EST timezone)
+cohorts-1w-pst                           Run cohorts analysis - display all cohorts w/ 7-day buckets (PST timezone)
 cohorts-1w-pst-8                         Run cohorts analysis - display 8 cohorts w/ 7-day buckets (PST timezone)
-cohorts-1w-utc                           Run cohorts analysis - display ALL cohorts w/ 7-day buckets (UTC timezone)
+cohorts-1w-utc                           Run cohorts analysis - all ALL cohorts w/ 7-day buckets (UTC timezone)
 cohorts-1w-utc-8                         Run cohorts analysis - display 8 cohorts w/ 7-day buckets (UTC timezone)
 env                                      create virtualenv for DEV/TEST environment
 env-prod                                 create virtualenv for PROD environment
-lint                                     Runs the linting over the codebase
+lint                                     Runs the linter over the codebase
 test                                     Runs the cohort analysis tests
 
     (use 'make <target> -n' to show the commands)
